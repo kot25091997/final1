@@ -1,0 +1,587 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To sign up using valid details",
+        "description": "",
+        "id": "to-register-in-the-testme-application;to-sign-up-using-valid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20961606400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user opens the test me app",
+            "match": {
+              "location": "Case1.user_opens_the_test_me_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 796146200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters UserName as \"kothaisakthi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kothaisakthi\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Case1.user_enters_UserName_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 314551100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "FirstName as \"kothai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kothai\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Case1.firstname_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270453200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "LastName as \"Saktthi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Saktthi\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Case1.lastname_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216549100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Password as \"abcdefgh123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdefgh123\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Case1.password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204873400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Confirmpassword as \"abcdefgh123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdefgh123\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Case1.confirmpassword_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107028300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Gender as \"Female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Female\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Case1.gender_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189970300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Email as \"kothhsggh@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kothhsggh@gmail.com\"",
+                  "offset": 9
+                }
+              ],
+              "location": "Case1.email_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147616500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Mobilenumber as \"9875454599\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9875454599\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Case1.mobilenumber_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147003700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "DOB as \"07/20/1997\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"07/20/1997\"",
+                  "offset": 7
+                }
+              ],
+              "location": "Case1.dob_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 425662100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Address as \"ooty-98\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ooty-98\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Case1.address_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Securityquestion as \"What is your Birth Place\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What is your Birth Place\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Case1.securityquestion_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82339300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "answer as \"Mysore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mysore\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Case1.answer_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 748490900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click Register button",
+            "match": {
+              "location": "Case1.click_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify registeration success",
+            "match": {
+              "location": "Case1.verify_registeration_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To register in the TestMe application",
+    "description": "",
+    "id": "to-register-in-the-testme-application",
+    "keyword": "Feature",
+    "uri": "src/main/resources/case1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Different user",
+        "description": "",
+        "id": "signin-page;different-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22361140600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user opens SignIn page",
+            "match": {
+              "location": "Case2.user_opens_SignIn_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112408900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter username as \"lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Case2.user_enter_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134328800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "password as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Case2.password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 759952500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click submit button as login",
+            "match": {
+              "location": "Case2.click_submit_button_as_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [Home] but found [Login]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat Stepdefinition.Case2.verify_login_success(Case2.java:47)\r\n\tat ✽.verify login success(src/main/resources/case2.feature:7)\r\n",
+              "duration": 19962600,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "verify login success",
+            "match": {
+              "location": "Case2.verify_login_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SignIn page",
+    "description": "",
+    "id": "signin-page",
+    "keyword": "Feature",
+    "uri": "src/main/resources/case2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user searches a product in testme app",
+        "description": "",
+        "id": "search-product-in-the-testme-app;user-searches-a-product-in-testme-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10634728500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens the testme app",
+            "match": {
+              "location": "Case3.user_opens_the_testme_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6614257800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the username as \"shwesam\" And password as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shwesam\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 54
+                }
+              ],
+              "location": "Case3.user_enters_the_username_as_And_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1576381600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click submit button login",
+            "match": {
+              "location": "Case3.click_submit_button_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 951114900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user searches the product as head and select headphone",
+            "match": {
+              "location": "Case3.user_searches_the_product_as_head_and_select_headphone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clickFind button",
+            "match": {
+              "location": "Case3.clickfind_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229172500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify product search success",
+            "match": {
+              "location": "Case3.verify_product_search_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "search product in the testme app",
+    "description": "",
+    "id": "search-product-in-the-testme-app",
+    "keyword": "Feature",
+    "uri": "src/main/resources/case3.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user searches a product in testme app",
+        "description": "",
+        "id": "search-product-in-the-testme-app;user-searches-a-product-in-testme-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15162845000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opensthe testme app",
+            "match": {
+              "location": "Case4.user_opensthe_testme_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4493780400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user entersthe username as \"shwesam\" And password as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shwesam\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 53
+                }
+              ],
+              "location": "Case4.user_entersthe_username_as_And_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1807364700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click submit buttonlogin",
+            "match": {
+              "location": "Case4.click_submit_buttonlogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1254574500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user searches the product ashead and select headphone",
+            "match": {
+              "location": "Case4.user_searches_the_product_ashead_and_select_headphone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39749100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click Find button",
+            "match": {
+              "location": "Case4.click_Find_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19553400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user check for size of cart",
+            "match": {
+              "location": "Case4.user_check_for_size_of_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182028300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify add to cart success",
+            "match": {
+              "location": "Case4.verify_add_to_cart_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "search product in the testme app",
+    "description": "",
+    "id": "search-product-in-the-testme-app",
+    "keyword": "Feature",
+    "uri": "src/main/resources/case4.feature",
+    "tags": []
+  }
+]
